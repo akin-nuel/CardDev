@@ -22,7 +22,7 @@ body{
     border-radius: 20px;
     background-color: #FFFFFF;
     margin-top:60px;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.08);
+    box-shadow: 2px 2px 6px 1px rgba(0, 0, 0, 0.08);
     padding: 15px 0;
 }
 
@@ -45,7 +45,7 @@ body{
 }
 
 #card .txtContainer .small{
-    border-radius: 10px;
+    border-radius: 30px;
     background-color: #E6D6FC;
     width: 100px;
     height: 30px;
@@ -76,3 +76,33 @@ body{
     color: #6C727F;
     font-size: 13px;
 }
+
+@media only screen and (max-width: 640px) {
+    .wrapper {
+      width:65%;
+    }
+
+    #card .txtContainer{
+        width:95%;
+        height:150px;
+        padding: 0;
+        margin: 10px auto;
+    }
+
+    #card .txtContainer .small{
+        width: 90px; 
+    }
+
+    .small h3{
+        font-size: 12px; 
+    }
+
+    .txtContainer h1{
+        font-size: 20px;
+    }
+
+    .txtContainer p{
+        font-size: 14px;
+        color: #6C727F;
+    }
+  }
